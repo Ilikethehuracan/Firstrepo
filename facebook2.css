@@ -1,0 +1,152 @@
+body{ 
+    background-color: #F0F2F5;
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    cursor: default;
+}
+.img1{ 
+    height: 105px;
+    width: 300px;
+    align-self: flex-start;
+    transform: translateX(60px);
+}
+
+.P1{
+    display: flex;
+    background-color: transparent;
+    height: 400px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+.P2{
+    display: flex;
+    height: 400px;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{ 
+width: 500px;
+}
+.f1{ 
+    background-color: white;
+    height: 315px;
+    width: 396px;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.input12{ 
+    border: 1px solid #DDDFE2;
+    border-radius: 5px;
+    width: 350px;
+    outline-color: lightskyblue;
+    cursor:text;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.b1{ 
+    color: white;
+    background-color: #166FE5;
+    border: none;
+    text-align: center;
+    border-radius: 7px;
+    font-weight: 700;
+    height: 50px;
+    width: 358px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+}
+.b1:hover{ 
+    background-color:#0c4b9c;
+}
+.p1{ 
+    color: blue;
+    text-align: center;
+    cursor: pointer;
+}
+.hr1{ 
+width: 350px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/* This is for iPhone and iPad view */
+@media screen and (max-width: 900px){ 
+    body{ 
+        flex-direction: column;
+        overflow-x: hidden;
+        height: 150vh;
+    }
+    .P1 h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .P1 img{ 
+        /* transform: translateX(100px); */
+        align-self: center;
+        transform: translateX(0px);
+    }
+    .P1{
+        height: 50vh;
+        width: 100vw;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+::placeholder{ 
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.p1:hover{ 
+    text-decoration: underline;
+}
+.b2{ 
+    color: white;
+    background-color: #37A520;
+    border: none;
+    text-align: center;
+    border-radius: 7px;
+    font-weight: 700;
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    transition-duration: 0.1s;
+}
+.b2:hover{ 
+    background-color: #228a0d;
+}
+.p2{ 
+}
+.h1{ 
+    cursor: pointer;
+}
+.h1:hover{ 
+    text-decoration: underline;
+}
+.b2:active{ 
+    transform: scale(0.98);
+}
+
+
